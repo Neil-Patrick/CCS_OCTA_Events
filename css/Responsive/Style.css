@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  .events-hub > div {
+    flex-direction: row; /* Switch to row on larger screens */
+    justify-content: space-between; /* Space out items */
+    max-width: 1200px; /* Set a maximum width for larger screens */
+  }
+
+  ul {
+    flex: 1; /* Take up 1 part of the flex container */
+  }
+
+  .events {
+    flex: 2; /* Take up 2 parts of the flex container */
+  }
+
+  .events-slider {
+    margin-bottom: 30px; /* More space for larger screens */
+  }
+
+  button.prev,
+  button.next {
+    font-size: 24px; /* Larger button size on bigger screens */
+  }
+}
