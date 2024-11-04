@@ -51,19 +51,19 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 50px;
-  background-color: #f9f9f9; /* Background color for the events hub */
+  background-color: #f9f9f9;
 }
 
 .eventsbg {
-  width: 100%; /* Make the background image full width */
-  height: auto; /* Maintain the aspect ratio */
+  width: 100%; 
+  height: auto; 
 }
 
 .events-hub > div {
   display: flex;
-  flex-direction: column; /* Stack on mobile */
-  width: 100%; /* Full width */
-  padding: 20px; /* Padding for spacing */
+  flex-direction: column; 
+  width: 100%; 
+  padding: 20px; 
 }
 
 .right-side {
@@ -71,30 +71,30 @@ body {
 }
 
 ul {
-  padding: 20px; /* Padding for spacing */
-  list-style-type: none; /* Remove default list style */
-  margin: 0; /* Remove default margin */
+  padding: 20px; 
+  list-style-type: none; 
+  margin: 0; 
 }
 
 ul li {
-  margin-bottom: 20px; /* Space between list items */
+  margin-bottom: 20px; 
 }
 
 ul li a {
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none; 
 }
 
 ul li h3 {
-  margin: 0; /* Remove default margin */
-  font-size: 1.5em; /* Heading size */
-  color: #333; /* Heading color */
+  margin: 0;
+  font-size: 1.5em; 
+  color: #333; 
   font-weight: bold;
   padding-bottom: 10px;
 }
 
 ul li p {
-  font-size: 1em; /* Paragraph size */
-  color: #b6b6b6; /* Paragraph color */
+  font-size: 1em; 
+  color: #b6b6b6; 
   padding-bottom: 20px;
 }
 
@@ -105,58 +105,58 @@ ul li h3:hover {
 }
 
 .events-slider {
-  position: relative; /* Position for absolute child elements */
-  width: 100%; /* Full width of the container */
-  overflow: hidden; /* Hide overflow */
-  margin-bottom: 30px; /* Space below the slider */
+  position: relative; 
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .slider-item {
-  display: none; /* Hide all items by default */
-  justify-content: center; /* Center align images */
+  display: none;
+  justify-content: center; 
 }
 
 .slider-item img {
-  width: 100%; /* Make images responsive */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 5px; /* Rounded corners */
+  width: 100%; 
+  height: auto; 
+  border-radius: 5px; 
 }
 
 .slider-item.active {
-  display: flex; /* Show active slide */
+  display: flex; 
 }
 
 button.prev,
 button.next {
-  position: absolute; /* Position the buttons */
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Adjust for perfect centering */
-  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
-  border: none; /* Remove border */
-  cursor: pointer; /* Pointer cursor */
-  padding: 10px; /* Padding for button */
-  border-radius: 50%; /* Round buttons */
-  font-size: 18px; /* Button text size */
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%); 
+  background-color: rgba(255, 255, 255, 0.7); 
+  border: none; 
+  cursor: pointer; 
+  padding: 10px; 
+  border-radius: 50%; 
+  font-size: 18px;
 }
 
 button.prev {
-  left: 10px; /* Position to the left */
+  left: 10px; 
 }
 
 button.next {
-  right: 10px; /* Position to the right */
+  right: 10px; 
 }
 
 article {
-  margin: 20px; /* Space around articles */
-  margin-bottom: 50px; /* Space around articles */
-  padding: 20px; /* Padding inside articles */
+  margin: 20px;
+  margin-bottom: 50px; 
+  padding: 20px; 
 }
 
 article h1 {
-  margin: 0; /* Remove default margin */
-  font-size: 1.5em; /* Heading size */
-  color: #333; /* Heading color */
+  margin: 0; 
+  font-size: 1.5em;
+  color: #333;
 }
 
 article h3 {
@@ -166,12 +166,12 @@ article h3 {
 }
 
 article a {
-  text-decoration: none; /* Removes underline from links */
-  color: inherit; /* Inherits the color from parent element */
+  text-decoration: none;
+  color: inherit; 
 }
 
 article a:hover {
-  opacity: 0.5; /* Optional: adds a hover effect */
+  opacity: 0.5; 
 }
 
 article a h4:hover {
@@ -192,32 +192,32 @@ article a h4:hover {
 }
 
 .events {
-  display: flex; /* Use flexbox for the events section */
-  flex-direction: row; /* Align events in a row */
-  flex-wrap: wrap; /* Allow wrapping to the next line if needed */
-  padding: 20px; /* Padding for spacing */
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  padding: 20px; 
 }
 
 .event {
-  flex: 1 1 45%; /* Grow to fill space, shrink as needed, with a base width of 45% */
-  margin: 10px; /* Space between events */
-  padding: 10px; /* Padding inside events */
+  flex: 1 1 45%; 
+  margin: 10px; 
+  padding: 10px; 
 }
 
 .event img {
-  width: 100%; /* Make event images responsive */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 5px; /* Rounded corners for images */
+  width: 100%;
+  height: auto; 
+  border-radius: 5px; 
 }
 
 .event h1 {
-  font-size: 1.5em; /* Event title size */
-  color: #333; /* Event title color */
+  font-size: 1.5em; 
+  color: #333; 
 }
 
 .event p {
-  font-size: 1em; /* Event description size */
-  color: #333; /* Event description color */
+  font-size: 1em; 
+  color: #333; 
   padding-top: 10px;
   padding-bottom: 10px;
 }

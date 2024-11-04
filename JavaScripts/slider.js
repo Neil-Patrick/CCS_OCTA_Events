@@ -7,10 +7,10 @@ function changeSlide(n) {
 
 function showSlide(n) {
     const slides = document.getElementsByClassName("slider-item");
-    if (n >= slides.length) slideIndex = 0; // Loop back to the first slide
-    if (n < 0) slideIndex = slides.length - 1; // Loop to the last slide
+    if (n >= slides.length) slideIndex = 0; 
+    if (n < 0) slideIndex = slides.length - 1;
     for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none"; // Hide all slides
+        slides[i].style.display = "none"; 
     }
-    slides[slideIndex].style.display = "flex"; // Show the current slide
+    slides[slideIndex].style.display = "flex"; 
 }
